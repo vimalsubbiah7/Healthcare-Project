@@ -35,5 +35,3 @@ Healthcare project
 .
 .
 
-.
-..
