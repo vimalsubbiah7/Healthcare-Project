@@ -2,7 +2,7 @@
 Healthcare project 
 
 # TO-DO LIST
-1.logoo and ui/ux
+1.logo and ui/ux
 
 2.color scheme for website
 
