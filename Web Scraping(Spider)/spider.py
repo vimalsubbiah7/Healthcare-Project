@@ -46,7 +46,7 @@ else :
 cur.execute('''SELECT url FROM Webs''')
 webs = list()
 for row in cur:
-    webs.append(str(row[0]))
+
 
 print(webs)
 
