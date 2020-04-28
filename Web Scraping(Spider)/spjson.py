@@ -24,7 +24,7 @@ for row in cur :
 
 if maxrank == minrank or maxrank is None or minrank is None:
     print("Error - please run sprank.py to compute page rank")
-    quit()
+
 
 fhand.write('spiderJson = {"nodes":[\n')
 count = 0
