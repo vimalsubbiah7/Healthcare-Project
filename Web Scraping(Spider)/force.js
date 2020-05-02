@@ -40,6 +40,21 @@ function loadData(json) {
       .attr("class", "link")
       .style("stroke-width", function(d) { return Math.sqrt(d.value); });
 
+  var node = svg.selectAll("circle.node")
+      .data(json.nodes)
+      .enter().append("circle")
+      .attr("class", "node")
+      .attr("r", function(d) { return getrank(d.rank); } )
+      .style("fill", function(d) { return getcolor(d.rank); })
+      .on("dblclick",function(d) { 
+            if ( confirm('Do you want to open '+d.url) ) 
+                window.open(d.url,'_new',''); 
+            d3.event.stopPropagation();
+        })
+      .call(force.drag);
+
+  node.append("title")
+      .text(function(d) { return d.url; });
 
   force.on("tick", function() {
     link.attr("x1", function(d) { return d.source.x; })
