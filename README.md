@@ -1,7 +1,12 @@
-# Healthcare-Project
-Healthcare project 
+# RANDOM STUFF THAT I CODE
 
-# TO-DO LIST
+## DONE
+
+1. WEB SCRAPER
+
+2.TEXT TO HASH (md5,sha5,sha224,sha256,sha384,sha512... )
+
+### TO-DO LIST
 1.logo and ui/ux
 
 2.color scheme for website
@@ -20,18 +25,4 @@ Healthcare project
 
 9.auth and chat  history
 
-10.other shizz 
-
-
-
-## Add below 
-
-1. abc
-
-.
-.
-
-.
-.
-.
-
+10.other stuff
