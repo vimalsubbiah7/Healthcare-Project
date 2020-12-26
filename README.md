@@ -8,6 +8,7 @@
 
 3. INTERACTIVE STORY APP (Flutter) //not built tho
 
+4. Autocorrect (vocabulary based on a book)
 
 
 ### TO-DO LIST
