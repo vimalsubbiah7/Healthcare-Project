@@ -6,7 +6,8 @@
 
 2. TEXT TO HASH (md5,sha5,sha224,sha256,sha384,sha512... )
 
-3. INTERACTIVE STORY APP
+3. INTERACTIVE STORY APP (Flutter) //not built tho
+
 
 
 ### TO-DO LIST
